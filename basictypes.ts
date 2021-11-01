@@ -16,7 +16,12 @@ console.log(firstName);
 
 let age:number;
 let lastName:string;
+lastName ="Madipelly";
+lastName = "M";
 let isValue: boolean;
+// const myName:string; //const must be initalized
+const myName = "Shravan";
+// myName = "Raj"; // const re-assignment not possible
 
 let u: undefined = undefined;
 let n: null = null;
@@ -80,6 +85,14 @@ welcomeMsg = "Hello World!";
 console.log(`${welcomeMsg}`);
 welcomeMsg = false;
 console.log(`${welcomeMsg}`);
+
+let anyTypeValue;
+anyTypeValue = "Shravan";
+anyTypeValue = false;
+console.log(`any<TYPE> fallback TS funtionality: ${anyTypeValue}`);
+console.log(typeof anyTypeValue);
+
+
 
 
 
